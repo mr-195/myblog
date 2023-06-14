@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+    </style>
+    <title>My Blog</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 contenteditable data-text="Grow">My blog Page</h1>
+    </header>
+    <div class="warning"><MARQUEE>This webpage is under development!</MARQUEE></div>
+    <main>
+      <section id="blog-list">
+        <article class="blog-post">
+          <h3 style="display: block; color: aliceblue;align-self: center; background-color: rgb(53, 0, 0); border-radius: 10px; text-align: center; width: 40vw;">Bugs Unleashed: The Hilarious Adventures of Coding Chaos</h3>
+          <p style="align-self: center; text-align: justify; color: rgb(255, 255, 255); border-radius: 10px;">
+            If you are reading this blog, well it's my first blog and I'm glad
+            you're here! <br />
+            We all have experienced bugs in our life - I mean programming bugs.
+            (The other ones are nice except for a few). These programming bugs
+            are hell deadly coz they not only affect a li'l bit of program which
+            you've written but also you're mental health - well we go into
+            various head-scratching moment where we pray to god(if you're an
+            atheist.... well look for yourselves). What is a bug in programming
+            - well bugs are like elusive clowns, hiding in the shadows and
+            popping up when you least expect them, ready to give you a good
+            laugh (or cry) as you desperately try to catch them. These range
+            from a simple typo in your code where you wrote max as a variable
+            and wondering why the heck the function is not working to the
+            programmers most formidable enemy - 'The segmentation fault' . If
+            you encounter this in C ... RIP my friend. <br />
+            But on the brighter side- we have various debugging tools like gdb -
+            GNU Debugger and Valgrind (the grind part is true *_*) which are the
+            saviours - if and only if you know how to use them. But its the best
+            part is when you find the bug and your program starts working (as it
+            should) , the level of dopamine release is exhilarating and you
+            imagine yourself as the king of world but soon do you realize
+            there's another bug and you enter the state of grief. See here you
+            need a coffee break - now you have your coffee - you come back and
+            this process of finding bugs continue untill the software gets
+            outdated and a newer version is released, but damn this also
+            contains bugs - so it's a never ending cycle of bug finding and
+            fixing!
+          </p>
+        </article>
+        <!-- Blog posts will be dynamically added here -->
+      </section>
+
+      <section id="create-post">
+        <h2>Create a New Post</h2>
+        <form id="blog-form">
+          <label for="title">Title:</label>
+          <input type="text" id="title" required />
+          <label for="content">Content:</label>
+          <textarea id="content" required></textarea>
+          <button type="submit">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              >Don't Click</a
+            >
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer>&copy; 2023 Manaswi Raj</footer>
+  </body>
+</html>
